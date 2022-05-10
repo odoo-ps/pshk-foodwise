@@ -1,7 +1,7 @@
-# Pos Android
+# Pos Android Print
 
 ## [15.0.1.0.0]
 
--   Show pos customer screen on Android second screen
+-   Enable Sunmi Printing
 
 2697632
