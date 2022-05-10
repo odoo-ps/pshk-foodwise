@@ -42,4 +42,12 @@ odoo.define("pos_android.models", function (require) {
             this.pos.send_current_order_to_customer_facing_display();
         },
     });
+
+    var _super_orderline = models.Orderline.prototype;
+    models.Orderline = models.Orderline.extend({
+        get_display_price: function () {
+            var price = _super_orderline.get_display_price.call(this);//old_price
+            return price*2;//custom price
+        }
+    });
 });
