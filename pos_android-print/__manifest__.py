@@ -2,7 +2,7 @@
     "name": "Pos Android Print",
     "summary": """Enable Sunmi Printing""",
     "category": "",
-    "version": "15.0.1.0.0",
+    "version": "15.0.1.0.1",
     "author": "Odoo PS",
     "website": "https://www.odoo.com",
     "license": "OEEL-1",
