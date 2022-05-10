@@ -4,8 +4,8 @@ odoo.define('pult_pos.main2', function (require) {
 
     models.Orderline = models.Orderline.extend({
         get_display_price: function(){
-            return this.get_base_price();
             console.log("custom code ran")
+            return this.get_base_price();
             },
         });
 });
